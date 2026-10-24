@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore Corstorphine’s habitats and potential nature connections.">
+  <title>Corstorphine · Nature Connections</title>
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="https://corstorphineinbloom.com/" class="brand" aria-label="Corstorphine Nature Connections home"><span class="brand-icon">✳</span><span>Corstorphine<span class="brand-sub">NATURE CONNECTIONS</span></span></a>
+  <div class="header-note"><span class="live-dot"></span> A local network, one connection at a time</div>
+  <div class="header-actions"><span class="private">Working community map</span><button id="sources" class="text-button">Sources & method <span>↗</span></button></div>
+</header>
+<main>
+  <aside class="sidebar" aria-label="Explore the nature network">
+    <div class="intro"><div class="eyebrow">CORSTORPHINE & CLERMISTON</div><h1>Small spaces.<br><em>Stronger connections.</em></h1><p>Explore the green places between us, and where a little action could help wildlife move.</p><div class="stats"><div><strong id="habitat-count">—</strong><span>mapped green areas</span></div><div><strong id="connection-count">—</strong><span>candidate connections</span></div></div></div>
+    <div class="explorer">
+      <div class="tabs" role="tablist" aria-label="Explore"><button id="connections-tab" class="tab active" role="tab" aria-selected="true">Connections <span id="tab-count"></span></button><button id="places-tab" class="tab" role="tab" aria-selected="false">Mapped places</button></div>
+      <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Find a place or connection" aria-label="Find a place or connection"></div>
+      <div class="filters" aria-label="Connection type"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="pollinator">Pollinators</button><button class="filter" data-filter="garden">Garden wildlife</button><button class="filter" data-filter="saved">Shortlist <span id="saved-count">0</span></button></div>
+      <p id="list-context" class="list-context">Ideas to investigate · select a connection to explore</p>
+      <div id="results" class="results" aria-live="polite"></div>
+    </div>
+    <div class="sidebar-footer"><span>WORKING MAP · 23 OCT 2026</span><button id="export" title="Export shortlisted candidates and your notes as GeoJSON">Export shortlist ↓</button></div>
+  </aside>
+  <section class="map-section" aria-label="Interactive habitat map">
+    <div id="map" role="region" aria-label="Map of Corstorphine habitats and candidate connections"></div>
+    <div class="map-top"><div class="map-title"><span class="compass">↟</span><div><strong>The local nature network</strong><span>Mapped evidence + possibilities to explore</span></div></div><button id="layers-toggle" class="map-button" aria-expanded="true" aria-controls="layers-panel">▱ <span>Layers</span></button></div>
+    <div id="layers-panel" class="layers-panel">
+      <div class="panel-heading"><strong>Build your map</strong><button id="close-layers" class="icon-button" aria-label="Close layers">×</button></div>
+      <p class="layer-section-title">MAPPED EVIDENCE</p>
+      <label class="layer-row"><span class="swatch green"></span><span>Green spaces & woodland<small>Land cover from OpenStreetMap</small></span><input type="checkbox" data-layer="habitat" checked aria-label="Green spaces and woodland"></label>
+      <label class="layer-row"><span class="swatch garden"></span><span>Gardens & growing spaces<small>Only where mapped in open data</small></span><input type="checkbox" data-layer="gardens" checked aria-label="Gardens and growing spaces"></label>
+      <label class="layer-row"><span class="swatch school"></span><span>School grounds<small>Potential partners, habitat not surveyed</small></span><input type="checkbox" data-layer="schools" aria-label="School grounds"></label>
+      <label class="layer-row"><span class="swatch barrier"></span><span>Potential barriers<small>Roads & rail · walls/fences on zoom</small></span><input type="checkbox" data-layer="barriers" checked aria-label="Potential barriers"></label>
+      <label class="layer-row"><span class="swatch boundary"></span><span>Community council boundary<small>City of Edinburgh Council, 2025</small></span><input type="checkbox" data-layer="boundary" checked aria-label="Community council boundary"></label>
+      <p class="layer-section-title opportunities">INFERRED OPPORTUNITIES</p>
+      <label class="layer-row"><span class="swatch bee"></span><span>Pollinator stepping stones<small>Candidate links, not official B-Lines</small></span><input type="checkbox" data-layer="pollinator" checked aria-label="Pollinator stepping stones"></label>
+      <label class="layer-row"><span class="swatch wildlife"></span><span>Garden wildlife links<small>Access & hedgehog presence unknown</small></span><input type="checkbox" data-layer="garden" checked aria-label="Garden wildlife links"></label>
+      <div class="layer-foot">Solid = mapped feature<br>Dashed = idea requiring investigation</div>
+    </div>
+    <div class="map-tools"><button id="fit" class="map-button" aria-label="Fit map to community council area" title="Fit local area">⌖</button><button id="zoom-in" class="map-button" aria-label="Zoom in">+</button><button id="zoom-out" class="map-button" aria-label="Zoom out">−</button></div>
+    <div class="map-bottom"><div class="map-legend"><span><i class="dot evidence"></i>Mapped evidence</span><span><i class="dash"></i>Inferred opportunity</span></div><div class="map-tip">Click a feature or choose a connection</div></div>
+    <div id="detail" class="detail-panel" hidden aria-label="Selected feature details"></div>
+    <div id="loading" class="loading">Loading the local nature map…</div>
+  </section>
+</main>
+<dialog id="source-dialog"><div class="dialog-head"><div><div class="eyebrow">READING THE MAP</div><h2>Evidence, ideas & open data</h2></div><button class="icon-button" id="close-sources" aria-label="Close sources">×</button></div><div class="source-content">
+  <div class="method-callout">This is a working discussion map. Dashed connections are suggestions for investigation, not surveyed wildlife routes, confirmed habitats or Council-approved projects.</div>
+  <h3>What is mapped evidence?</h3><p>Solid green and blue shapes, streets, paths and boundary geometry come from open mapping records. Their existence in a dataset does not establish ecological quality, public access, ownership or current condition. A road is mapped evidence; its effect on a particular species is an inference.</p>
+  <h3>Data sources & attribution</h3><div id="source-metadata"></div>
+  <p><a href="data/habitats.geojson" download>Download mapped green areas (GeoJSON)</a> · <a href="data/evidence.geojson" download>Download transport, boundaries of gardens & schools (GeoJSON)</a> · <a href="data/boundary.geojson" download>Council boundary (GeoJSON)</a> · <a href="data/candidates.geojson" download>Candidate connections (GeoJSON)</a></p>
+  <h3>How the opportunities were drawn</h3><p>Candidate axes were manually drawn between nearby mapped green spaces, streets or neighbourhoods. They are illustrative lines, not least-cost paths or exact intervention sites. Their indicative lengths follow these lines and do not measure an ecological gap. No species movement, planting quality, garden access or flowering continuity has been verified. There is no universal bee-flight threshold applied here.</p>
+  <p>Garden wildlife links identify areas for neighbour engagement. Domestic gardens are incompletely mapped; no private garden is assumed to be accessible. The map does not contain a verified hedgehog population, fence-hole inventory or a complete tree canopy layer. Blank areas mean missing information, not absence of habitat.</p>
+  <h3>Policy & practical guidance</h3><ul>
+  <li><a href="https://www.thrivinggreenspaces.scot/homepage/15/edinburgh-nature-network" target="_blank" rel="noopener">Edinburgh Nature Network</a> — supports connected habitats, improved verges and community involvement. Its official action polygons have not been imported; these candidates need checking against the Council’s network.</li>
+  <li><a href="https://www.edinburgh.gov.uk/downloads/file/33491/edinburgh-biodiversityaction-plan-2022-2027" target="_blank" rel="noopener">Edinburgh Biodiversity Action Plan 2022–2027</a> — context for habitat and species projects.</li>
+  <li><a href="https://www.buglife.org.uk/our-work/b-lines/" target="_blank" rel="noopener">Buglife B-Lines</a> — flower-rich stepping stones. The official B-Lines dataset is not shown; the amber links are local suggestions.</li>
+  <li><a href="https://www.hedgehogstreet.org/help-hedgehogs/link-your-garden/" target="_blank" rel="noopener">Hedgehog Street: link your garden</a> — 13 × 13 cm openings can connect consenting neighbours’ gardens; choose safe locations away from traffic and check suitability with owners.</li>
+  <li><a href="https://corstorphineinbloom.com/2026/03/24/corstorphine-library/" target="_blank" rel="noopener">Corstorphine in Bloom’s library planter</a> — local evidence of community planting, with the candidate endpoint approximate. No full planter inventory is claimed.</li>
+  <li><a href="https://edinburghgreenspacesforum.wordpress.com/2024/10/13/policy-documents/" target="_blank" rel="noopener">Edinburgh Green Spaces Forum policy guide</a> — links to wider Council policy documents.</li></ul>
+  <h3>Before making an intervention</h3><p>Walk the candidate area. Record seasonal flowers, hedge gaps, shade, mowing, lighting and safe crossings. Check land ownership, utilities, permissions and maintenance. Protect pavement access and sightlines. Agree the approach with Council officers and local partners, then measure what changes.</p>
+  <h3>Your private working notes</h3><p>Shortlists and notes are saved in this browser only. They do not sync between devices. Export your shortlist to keep or share a copy. No notes are sent to an external service.</p>
+</div></dialog>
+<dialog id="export-dialog"><div class="dialog-head"><div><div class="eyebrow">YOUR WORKING COPY</div><h2>Export your shortlist</h2></div><button class="icon-button" id="close-export" aria-label="Close export">×</button></div><div class="source-content"><p id="export-summary"></p><p><a id="download-export" class="primary-button" download="corstorphine-nature-shortlist.geojson">Download GeoJSON ↓</a></p><p>You can also select and copy the data below. This copy includes your notes.</p><label for="export-data">Shortlist data</label><textarea id="export-data" readonly style="display:block;width:100%;height:210px;margin-top:8px;padding:10px;font:11px/1.5 monospace;border:1px solid #d4ddcd;border-radius:4px;background:#f2f4e9;color:#213c35"></textarea></div></dialog><div id="toast" role="status" hidden></div>
+<script src="vendor/leaflet.js"></script><script src="app.js"></script>
+</body></html>
