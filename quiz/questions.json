@@ -1,0 +1,826 @@
+[
+  {
+    "emoji": "⚽",
+    "q": "In which Corstorphine park did Hibs win their first Edinburgh Cup by beating Hearts in 1879?",
+    "a": [
+      "Union Park",
+      "St Margaret’s Park",
+      "Drum Brae Park",
+      "Clermiston Park"
+    ],
+    "right": 0,
+    "info": "Union Park! Hibernian beat Hearts 2–0 in the Edinburgh Cup final replay in 1879. Hearts had won the 1878 final."
+  },
+  {
+    "emoji": "🦓",
+    "q": "From which local green space might you spot zebras?",
+    "a": [
+      "Clermiston Park",
+      "Corstorphine Hill",
+      "Union Park",
+      "Drum Brae Park"
+    ],
+    "right": 1,
+    "info": "Corstorphine Hill overlooks Edinburgh Zoo, so a zebra sighting is possible from the hill."
+  },
+  {
+    "emoji": "🏅",
+    "q": "Where did Olympic champion Eric Liddell later run a 440-yard race?",
+    "a": [
+      "St Margaret’s Park",
+      "Union Park",
+      "Clermiston Park",
+      "Drum Brae Park"
+    ],
+    "right": 1,
+    "info": "Union Park hosted a race involving Eric Liddell, the runner celebrated in Chariots of Fire."
+  },
+  {
+    "emoji": "🗿",
+    "q": "Which local hill has signs of human activity from roughly 5,000 years ago?",
+    "a": [
+      "Corstorphine Hill",
+      "Blackford Hill",
+      "Craiglockhart Hill",
+      "Drum Brae Park"
+    ],
+    "right": 0,
+    "info": "Corstorphine Hill has ancient cup-and-ring markings showing very early human activity."
+  },
+  {
+    "emoji": "🎸",
+    "q": "Which park did author Irvine Welsh visit on breaks from his nearby workplace?",
+    "a": [
+      "St Margaret’s Park",
+      "Union Park",
+      "Clermiston Park",
+      "Drum Brae Park"
+    ],
+    "right": 0,
+    "info": "St Margaret’s Park is linked to Irvine Welsh, who worked nearby at Ladywell House."
+  },
+  {
+    "emoji": "✈️",
+    "q": "What famous aerobatic display team is shown flying over Corstorphine in this photo?",
+    "a": [
+      "The Red Arrows",
+      "The Blue Angels",
+      "The Snowbirds",
+      "The Battle of Britain Memorial Flight"
+    ],
+    "right": 0,
+    "info": "The Red Arrows are the Royal Air Force aerobatic team, famous for their precision flying and smoke trails.",
+    "photoKey": "planes"
+  },
+  {
+    "emoji": "⛪",
+    "q": "Which park is overlooked by a church designed by architect Sir Basil Spence?",
+    "a": [
+      "Union Park",
+      "Drum Brae Park",
+      "Clermiston Park",
+      "St Margaret’s Park"
+    ],
+    "right": 2,
+    "info": "Clermiston Park is overlooked by St Andrew’s Church, designed by Sir Basil Spence."
+  },
+  {
+    "emoji": "🏟️",
+    "q": "Which local park was used for annual Hearts supporters’ outings?",
+    "a": [
+      "St Margaret’s Park",
+      "Union Park",
+      "Clermiston Park",
+      "Drum Brae Park"
+    ],
+    "right": 0,
+    "info": "St Margaret’s Park hosted annual Hearts supporters’ outings. The original Corstorphine Fair quiz also links these visits with the longer permitted opening hours of local pubs."
+  },
+  {
+    "emoji": "🌄",
+    "q": "Which local place name comes from Gaelic for “brow of the ridge”?",
+    "a": [
+      "Clermiston",
+      "Carrick Knowe",
+      "Drum Brae",
+      "Pinkhill"
+    ],
+    "right": 2,
+    "info": "Drum Brae comes from the Gaelic Druim Bràigh."
+  },
+  {
+    "emoji": "🕰️",
+    "q": "Which park was created in 1961?",
+    "a": [
+      "Union Park",
+      "Drum Brae Park",
+      "St Margaret’s Park",
+      "Clermiston Park"
+    ],
+    "right": 1,
+    "info": "Drum Brae Park is the youngest of the parks featured in this quiz."
+  },
+  {
+    "emoji": "📚",
+    "q": "Which park has Drum Brae Library opposite it?",
+    "a": [
+      "Clermiston Park",
+      "St Margaret’s Park",
+      "Union Park",
+      "Drum Brae Park"
+    ],
+    "right": 0,
+    "info": "Clermiston Park has Drum Brae Library opposite it."
+  },
+  {
+    "emoji": "🚶",
+    "q": "Which hill is one of Corstorphine’s best-known places for views over the city and beyond?",
+    "a": [
+      "Union Park",
+      "Corstorphine Hill",
+      "Clermiston Park",
+      "St Margaret’s Park"
+    ],
+    "right": 1,
+    "info": "Corstorphine Hill is famous for its views, woodland walks and links to local history and wildlife."
+  },
+  {
+    "emoji": "📜",
+    "q": "What is the earliest recorded spelling of Corstorphine, appearing in a charter from 1128?",
+    "a": [
+      "Crostorfin",
+      "Corstorphynne",
+      "Corstorphan",
+      "Crostorphill"
+    ],
+    "right": 0,
+    "info": "Crostorfin (also recorded as Crostorfyn) appears in early records associated with David I and Holyrood Abbey."
+  },
+  {
+    "emoji": "🏰",
+    "q": "Which medieval family acquired Corstorphine lands during the 1370s?",
+    "a": [
+      "The Mowbrays",
+      "The Forresters",
+      "The Douglases",
+      "The Sinclairs"
+    ],
+    "right": 1,
+    "info": "Sir Adam Forrester bought Corstorphine lands in the 1370s. His family later became closely associated with the castle and church."
+  },
+  {
+    "emoji": "🏙️",
+    "q": "In which year was Corstorphine incorporated into Edinburgh?",
+    "a": [
+      "1896",
+      "1913",
+      "1920",
+      "1935"
+    ],
+    "right": 2,
+    "info": "Corstorphine became part of Edinburgh in 1920."
+  },
+  {
+    "emoji": "🕊️",
+    "q": "Which building survives from the old Corstorphine Castle estate?",
+    "a": [
+      "The castle gatehouse",
+      "The dovecot",
+      "The great hall",
+      "The castle chapel"
+    ],
+    "right": 1,
+    "info": "The 16th-century Corstorphine Dovecot, or Doocot, survives from the castle estate."
+  },
+  {
+    "emoji": "🪺",
+    "q": "Roughly how many nesting boxes are inside Corstorphine Dovecot?",
+    "a": [
+      "360",
+      "660",
+      "1,060",
+      "1,600"
+    ],
+    "right": 2,
+    "info": "The dovecot has about 1,060 nesting boxes for pigeons.",
+    "photoKey": "doocot"
+  },
+  {
+    "emoji": "🌳",
+    "q": "What kind of famous tree stood by the Corstorphine Dovecot until 1998?",
+    "a": [
+      "An oak",
+      "A sycamore",
+      "An elm",
+      "A beech"
+    ],
+    "right": 1,
+    "info": "The Sycamore of Corstorphine was lost during the Boxing Day storms in 1998.",
+    "photoKey": "doocot"
+  },
+  {
+    "emoji": "🕵️",
+    "q": "Which nobleman was killed in 1679 in the story associated with Christian Nimmo and the Corstorphine sycamore?",
+    "a": [
+      "James Forrester, 2nd Lord Forrester",
+      "John Forrester, 1st Lord Forrester",
+      "Sir Walter Scott",
+      "Sir Adam Forrester"
+    ],
+    "right": 0,
+    "info": "James Forrester, 2nd Lord Forrester, was murdered in 1679. Christian Nimmo was convicted of his murder."
+  },
+  {
+    "emoji": "⛪",
+    "q": "To which saint is Corstorphine Old Parish Church dedicated?",
+    "a": [
+      "St Margaret",
+      "St Andrew",
+      "St John the Baptist",
+      "St Cuthbert"
+    ],
+    "right": 2,
+    "info": "The church is dedicated to St John the Baptist and developed from the medieval collegiate church.",
+    "photoKey": "church"
+  },
+  {
+    "emoji": "✝️",
+    "q": "What unusual ground plan is associated with Corstorphine Old Parish Church?",
+    "a": [
+      "A round plan",
+      "A Jerusalem Cross plan",
+      "An octagonal plan",
+      "A triangular plan"
+    ],
+    "right": 1,
+    "info": "Its medieval layout is often described as a Jerusalem Cross or cruciform plan.",
+    "photoKey": "church"
+  },
+  {
+    "emoji": "🥛",
+    "q": "What was the celebrated old local delicacy called “Corstorphine Cream”?",
+    "a": [
+      "A custard tart",
+      "A soured milk dish",
+      "A whipped egg pudding",
+      "An oat-based ice cream"
+    ],
+    "right": 1,
+    "info": "It was a thickened soured-milk delicacy, traditionally made by adding warm milk to buttermilk."
+  },
+  {
+    "emoji": "🏪",
+    "q": "What is the nickname of the tiny building on St John’s Road measuring only about 40 inches wide?",
+    "a": [
+      "The Narrow House",
+      "The Wee Shop",
+      "The Penny Booth",
+      "The Little Toll"
+    ],
+    "right": 1,
+    "info": "The Wee Shop has been used for several different small businesses over the years."
+  },
+  {
+    "emoji": "🌷",
+    "q": "Which park was donated by Christopher Douglas Brown and opened in 1915?",
+    "a": [
+      "Union Park",
+      "Drum Brae Park",
+      "St Margaret’s Park",
+      "Clermiston Park"
+    ],
+    "right": 2,
+    "info": "St Margaret’s Park was gifted to the community and opened in 1915."
+  },
+  {
+    "emoji": "🏠",
+    "q": "What is the name of the historic building in St Margaret’s Park housing the Heritage Centre?",
+    "a": [
+      "Gibson Hall",
+      "The Dower House",
+      "Corstorphine Lodge",
+      "Forester Hall"
+    ],
+    "right": 1,
+    "info": "The Dower House, also known as Gibson’s Lodge, is home to the Corstorphine Heritage Centre.",
+    "photoKey": "dower"
+  },
+  {
+    "emoji": "📚",
+    "q": "Which famous writer is commemorated by the tower on Corstorphine Hill?",
+    "a": [
+      "Robert Burns",
+      "Sir Walter Scott",
+      "Robert Louis Stevenson",
+      "Arthur Conan Doyle"
+    ],
+    "right": 1,
+    "info": "The tower commemorates Sir Walter Scott and was built for the centenary of his birth."
+  },
+  {
+    "emoji": "🗼",
+    "q": "What is another local name for Corstorphine Hill Tower?",
+    "a": [
+      "Craigmount Tower",
+      "Clermiston Tower",
+      "Ravelston Tower",
+      "Ladywell Tower"
+    ],
+    "right": 1,
+    "info": "The landmark is commonly called Clermiston Tower, and is also known as Scott Tower."
+  },
+  {
+    "emoji": "🦁",
+    "q": "In which year did Edinburgh Zoo first open?",
+    "a": [
+      "1899",
+      "1908",
+      "1913",
+      "1925"
+    ],
+    "right": 2,
+    "info": "Edinburgh Zoo opened in 1913 on the slopes of Corstorphine Hill."
+  },
+  {
+    "emoji": "🐻",
+    "q": "What was the name of the bear that served with Polish soldiers and later lived at Edinburgh Zoo?",
+    "a": [
+      "Bamse",
+      "Wojtek",
+      "Misha",
+      "Bruno"
+    ],
+    "right": 1,
+    "info": "Wojtek, a Syrian brown bear, travelled with the Polish II Corps during the Second World War and later lived at Edinburgh Zoo."
+  },
+  {
+    "emoji": "🐧",
+    "q": "What military rank did Edinburgh Zoo’s king penguin Sir Nils Olav III reach in 2023?",
+    "a": [
+      "Colonel",
+      "Brigadier",
+      "Major General",
+      "Field Marshal"
+    ],
+    "right": 2,
+    "info": "Sir Nils Olav III became a Major General in the Norwegian King’s Guard in 2023, after having been a Brigadier since 2016."
+  },
+  {
+    "emoji": "👩‍🎓",
+    "q": "Which pioneering suffragist and University of Edinburgh science graduate grew up in Corstorphine?",
+    "a": [
+      "Elsie Inglis",
+      "Chrystal Macmillan",
+      "Sophia Jex-Blake",
+      "Flora Stevenson"
+    ],
+    "right": 1,
+    "info": "Chrystal Macmillan was a pioneering suffragist, lawyer and the first woman to graduate in science from the University of Edinburgh."
+  },
+  {
+    "emoji": "📕",
+    "q": "In which Robert Louis Stevenson novel does David Balfour pass through Corstorphine?",
+    "a": [
+      "Treasure Island",
+      "The Master of Ballantrae",
+      "Kidnapped",
+      "The Black Arrow"
+    ],
+    "right": 2,
+    "info": "David Balfour travels through the area in Kidnapped, first published in 1886."
+  },
+  {
+    "emoji": "🌊",
+    "q": "Which two lochs once lay on either side of old Corstorphine?",
+    "a": [
+      "Corstorphine Loch and Gogar Loch",
+      "Duddingston Loch and Lochend Loch",
+      "Nor Loch and Craigcrook Loch",
+      "Linlithgow Loch and Blackford Pond"
+    ],
+    "right": 0,
+    "info": "Corstorphine Loch lay to the east and Gogar Loch to the west. The low-lying ground was once much wetter than it is today."
+  },
+  {
+    "emoji": "🌾",
+    "q": "By which decade had Corstorphine’s old lochs been completely drained?",
+    "a": [
+      "The 1770s",
+      "The 1830s",
+      "The 1890s",
+      "The 1920s"
+    ],
+    "right": 1,
+    "info": "Drainage began in the 1660s and was completed by about 1837. Much of the old loch area became meadowland."
+  },
+  {
+    "emoji": "💧",
+    "q": "What is the name of the old drainage watercourse associated with Corstorphine’s lochs?",
+    "a": [
+      "The Gogar Lade",
+      "The Stank Burn",
+      "The Braid Burn",
+      "The Figgate Burn"
+    ],
+    "right": 1,
+    "info": "The Stank Burn connected the wet ground around Corstorphine and was altered during centuries of drainage work."
+  },
+  {
+    "emoji": "🫧",
+    "q": "What sort of mineral water made Corstorphine’s Physic Well a fashionable 18th-century attraction?",
+    "a": [
+      "Salt water",
+      "Iron-rich chalybeate water",
+      "Sulphurous water",
+      "Sparkling limestone water"
+    ],
+    "right": 2,
+    "info": "The Physic Well was known for its sulphurous mineral water. In 1749 a stagecoach began bringing visitors from Edinburgh."
+  },
+  {
+    "emoji": "🪨",
+    "q": "Where can you find surviving restored stonework associated with Corstorphine’s Physic Well?",
+    "a": [
+      "Beside Clermiston Tower",
+      "At the bottom of Dunsmuir Court",
+      "Inside the Dower House",
+      "Behind Edinburgh Zoo"
+    ],
+    "right": 1,
+    "info": "The stone edging near Dunsmuir Court was restored in 1972–73 after being buried. The original well was nearby."
+  },
+  {
+    "emoji": "🌸",
+    "q": "Which historic well name is remembered in Corstorphine street names?",
+    "a": [
+      "Ladywell",
+      "St Anne’s Well",
+      "The Monks’ Well",
+      "Queen Margaret’s Well"
+    ],
+    "right": 0,
+    "info": "Ladywell survives in local street names. Historical accounts also associate a Well of Our Lady with the site of the later Physic Well."
+  },
+  {
+    "emoji": "🚂",
+    "q": "In what year did the North British Railway open the Corstorphine branch line and terminus?",
+    "a": [
+      "1888",
+      "1902",
+      "1913",
+      "1924"
+    ],
+    "right": 1,
+    "info": "The terminus opened on 1 February 1902, connecting Corstorphine with Edinburgh by rail."
+  },
+  {
+    "emoji": "⏱️",
+    "q": "How long did the journey from Corstorphine station to Edinburgh Waverley take?",
+    "a": [
+      "11 minutes",
+      "24 minutes",
+      "38 minutes",
+      "50 minutes"
+    ],
+    "right": 0,
+    "info": "Just 11 minutes! That was the advertised journey time on the former Corstorphine branch."
+  },
+  {
+    "emoji": "🚉",
+    "q": "In what year did Corstorphine railway station close to passenger services?",
+    "a": [
+      "1948",
+      "1959",
+      "1968",
+      "1979"
+    ],
+    "right": 2,
+    "info": "Passenger services ended on 1 January 1968, following the last trains in December 1967. Freight ceased in February."
+  },
+  {
+    "emoji": "🏘️",
+    "q": "What now occupies the former site of Corstorphine railway station?",
+    "a": [
+      "A shopping centre",
+      "The Paddockholm housing estate",
+      "A public swimming pool",
+      "A railway museum"
+    ],
+    "right": 1,
+    "info": "The old station site was redeveloped for housing at The Paddockholm, near Station Road."
+  },
+  {
+    "emoji": "👻",
+    "q": "Which St John’s Road pub is named after a ghost linked to Christian Nimmo and the 1679 murder of Lord Forrester?",
+    "a": [
+      "The White Lady",
+      "The Torfin",
+      "The Corstorphine Inn",
+      "The Oak Inn"
+    ],
+    "right": 0,
+    "info": "The White Lady takes its name from a local ghost story. Christian Nimmo was convicted of killing Lord Forrester in 1679, and folklore associates her ghost with a sycamore tree near the dovecot."
+  },
+  {
+    "emoji": "🐴",
+    "q": "Which old St John’s Road inn once welcomed horse-drawn buses and was later replaced by The Torfin?",
+    "a": [
+      "The Harp Inn",
+      "The Black Bull Inn",
+      "The Oak Inn",
+      "The White Lady"
+    ],
+    "right": 2,
+    "info": "The Oak Inn, also called The Oak, was one of the old coaching stops on St John’s Road. The Torfin later took its place."
+  },
+  {
+    "emoji": "🎳",
+    "q": "What is the traditional nickname of the Corstorphine Inn, and which game facility did it lose?",
+    "a": [
+      "The Corrie — a skittle alley",
+      "The Oak — a billiards room",
+      "The Torfin — a bowling green",
+      "The Lady — a dartboard"
+    ],
+    "right": 0,
+    "info": "Locals call the Corstorphine Inn “the Corrie”. It once had a skittle alley, which was removed during alterations."
+  },
+  {
+    "emoji": "🍀",
+    "q": "Which inn once stood near the High Street and Saughton Road corner called Irish Corner?",
+    "a": [
+      "The Oak Inn",
+      "The Black Bull Inn",
+      "The Harp Inn",
+      "The Red Lion Inn"
+    ],
+    "right": 1,
+    "info": "The Black Bull Inn gave the corner its landmark. The area was called Irish Corner because Irish workers lived nearby, including people who came for canal and railway construction."
+  },
+  {
+    "emoji": "🏨",
+    "q": "Why was the Mansion House near Corstorphine Primary School originally built around 1750?",
+    "a": [
+      "As a coaching stable",
+      "As a parish courthouse",
+      "As lodging for visitors taking the Physic Well waters",
+      "As a military barracks"
+    ],
+    "right": 2,
+    "info": "The Mansion House was a kind of spa lodging house for visitors who came to drink the water from the Physic Well. It was demolished in 1952 as the school expanded."
+  },
+  {
+    "emoji": "🚶",
+    "q": "What traditional Scots name was used for Manse Road, the narrow lane leading towards St Ninian’s?",
+    "a": [
+      "The Wynd",
+      "The Slap",
+      "The Vennel",
+      "The Brae"
+    ],
+    "right": 1,
+    "info": "It was known as “the Slap” or “Barney’s Slap”. Locals spoke of going “down the Loan” and “up the Slap”."
+  },
+  {
+    "emoji": "🌳",
+    "q": "What formed the old Cross of Corstorphine, recalled in the name Cross Cottages?",
+    "a": [
+      "Five elm trees arranged as a square with one in the middle",
+      "Four standing stones in a straight line",
+      "A stone cross beside three yew trees",
+      "Six oak trees around a village pump"
+    ],
+    "right": 0,
+    "info": "The Cross of Corstorphine was a group of five elm trees: one at each corner of a square and a fifth in the centre. Nearby houses were called Cross Cottages."
+  },
+  {
+    "emoji": "🏡",
+    "q": "According to local accounts, who gave Traquair Park its name?",
+    "a": [
+      "Mary, Queen of Scots",
+      "Maud Traquair",
+      "Margaret Forrester",
+      "Chrystal Macmillan"
+    ],
+    "right": 1,
+    "info": "Local accounts attribute the name to Maud Traquair, mother of John and W. Traquair Dickson, whose family was associated with Corstorphine House."
+  },
+  {
+    "emoji": "📖",
+    "q": "Which Corstorphine Hill viewpoint, mentioned in Kidnapped, gave its name to a nearby road?",
+    "a": [
+      "Rest and Be Thankful",
+      "The King’s Seat",
+      "The Five Sisters",
+      "The Old Quarry"
+    ],
+    "right": 0,
+    "info": "Rest and Be Thankful is a traditional stopping point on Corstorphine Hill. Robert Louis Stevenson mentions it in Kidnapped as David Balfour and Alan Breck near Edinburgh."
+  },
+  {
+    "emoji": "🧵",
+    "q": "What surprising clothing trade once operated in Corstorphine’s tiny Wee Shop on St John’s Road?",
+    "a": [
+      "A kilt weaver",
+      "A hat milliner",
+      "A corsetry maker",
+      "A shoelace merchant"
+    ],
+    "right": 2,
+    "info": "The Wee Shop’s occupants have reportedly included a corsetry maker or staymaker — remarkable given how tiny the premises are."
+  },
+  {
+    "emoji": "🏫",
+    "q": "In what year was Corstorphine Primary School first founded near its current site?",
+    "a": [
+      "1646",
+      "1729",
+      "1848",
+      "1902"
+    ],
+    "right": 0,
+    "info": "The first Lord Forrester established Corstorphine School in 1646. Later school buildings followed, including one built in 1848."
+  },
+  {
+    "emoji": "📯",
+    "q": "Which two symbols feature on Corstorphine Primary School’s badge?",
+    "a": [
+      "A lion and a thistle",
+      "A castle and a crown",
+      "A hunting horn and a lamp",
+      "A tree and a book"
+    ],
+    "right": 2,
+    "info": "The school badge combines a Forrester hunting horn with a lamp. The lamp recalls the old light that guided travellers across marshy ground."
+  },
+  {
+    "emoji": "🎒",
+    "q": "Which Catholic boys’ school operated at Beechwood House on Corstorphine Road from 1953 to 1978?",
+    "a": [
+      "St Mary’s Academy",
+      "Scotus Academy",
+      "St Cuthbert’s College",
+      "Holyrood Academy"
+    ],
+    "right": 1,
+    "info": "Scotus Academy opened at Beechwood House in 1953. It was run by the Christian Brothers."
+  },
+  {
+    "emoji": "⛪",
+    "q": "What was St Ninian’s Church on St John’s Road originally called when it opened in 1844?",
+    "a": [
+      "Corstorphine Free Church",
+      "St John’s Mission",
+      "Corstorphine Collegiate Church",
+      "West Edinburgh Kirk"
+    ],
+    "right": 0,
+    "info": "It began as Corstorphine Free Church after the 1843 Disruption. It adopted the name St Ninian’s in 1929."
+  },
+  {
+    "emoji": "🕯️",
+    "q": "The Victorian gas lamps in St Ninian’s Church originally came from which Edinburgh meeting place?",
+    "a": [
+      "Usher Hall",
+      "Assembly Rooms on George Street",
+      "Tanfield Hall",
+      "Music Hall in Queen Street"
+    ],
+    "right": 2,
+    "info": "The church’s first minister, the Rev Dr George Burns, obtained its gasoliers from the hall at Tanfield, where the Free Church’s first General Assembly met in 1843."
+  },
+  {
+    "emoji": "🌳",
+    "q": "What wood was used for the large cross installed in St Ninian’s Church during its 1953 refurbishment?",
+    "a": [
+      "Oak",
+      "Sycamore",
+      "Pine",
+      "Ash"
+    ],
+    "right": 1,
+    "info": "The cross was made from sycamore to connect the church with Corstorphine’s historic sycamore tree."
+  },
+  {
+    "emoji": "🪖",
+    "q": "On which local road does the Corstorphine War Memorial stand?",
+    "a": [
+      "Kirk Loan",
+      "St John’s Road",
+      "Manse Road",
+      "High Street"
+    ],
+    "right": 0,
+    "info": "The Corstorphine War Memorial stands on Kirk Loan, beside Corstorphine Old Parish Church.",
+    "photoKey": "church"
+  },
+  {
+    "emoji": "📯",
+    "q": "Which heraldic emblem appears on the Corstorphine War Memorial’s shield?",
+    "a": [
+      "Three hunting horns",
+      "A crowned lion",
+      "Three towers",
+      "Two crossed swords"
+    ],
+    "right": 0,
+    "info": "The three hunting horns are associated with the arms of the Forrester family of Corstorphine.",
+    "photoKey": "church"
+  },
+  {
+    "emoji": "🥌",
+    "q": "In what year was Corstorphine Curling Club founded?",
+    "a": [
+      "1764",
+      "1829",
+      "1891",
+      "1920"
+    ],
+    "right": 1,
+    "info": "Corstorphine Curling Club dates from 1829, when outdoor ice was central to the sport."
+  },
+  {
+    "emoji": "🎳",
+    "q": "In what year was Corstorphine Bowling Club formed?",
+    "a": [
+      "1829",
+      "1876",
+      "1891",
+      "1913"
+    ],
+    "right": 2,
+    "info": "Corstorphine Bowling Club was founded on 27 July 1891. Its first green was in the grounds of Dunsmuir."
+  },
+  {
+    "emoji": "🏺",
+    "q": "What Roman-era objects have been found on Corstorphine Hill?",
+    "a": [
+      "Pottery fragments",
+      "An intact legionary helmet",
+      "A marble amphitheatre",
+      "A complete Roman chariot"
+    ],
+    "right": 0,
+    "info": "Fragments of Roman pottery are among the archaeological finds recorded on Corstorphine Hill. They do not by themselves prove there was a Roman fort on the hill."
+  },
+  {
+    "emoji": "🛡️",
+    "q": "An enclosure at Broomhall has been suggested as what kind of Roman site?",
+    "a": [
+      "A possible fort",
+      "A confirmed amphitheatre",
+      "A Roman bathhouse",
+      "An imperial palace"
+    ],
+    "right": 0,
+    "info": "The Broomhall enclosure has been interpreted as a possible Roman fort, but its Roman date and function remain unconfirmed."
+  },
+  {
+    "emoji": "🪨",
+    "q": "Near which place was a Roman milestone found that helps reveal Roman roads west of Edinburgh?",
+    "a": [
+      "Ingliston",
+      "St Margaret’s Park",
+      "Carrick Knowe station",
+      "Clermiston Tower"
+    ],
+    "right": 0,
+    "info": "The Ingliston milestone names the First Cohort of Cugerni and dates to the Antonine period, around AD 140–144."
+  },
+  {
+    "emoji": "🛁",
+    "q": "Why did visitors travel to Corstorphine in the 1700s?",
+    "a": [
+      "To take the mineral waters at the Physic Well",
+      "To see the first Edinburgh Zoo penguins",
+      "To ride a railway into the city",
+      "To visit a Roman amphitheatre"
+    ],
+    "right": 0,
+    "info": "Corstorphine’s sulphurous Physic Well became a fashionable spa attraction in the eighteenth century, with visitors travelling out from Edinburgh."
+  },
+  {
+    "emoji": "🍻",
+    "q": "Why were annual Hearts supporters’ outings to St Margaret’s Park associated with Corstorphine pubs?",
+    "a": [
+      "Local drinking rules could allow longer opening for qualifying travellers",
+      "The park had its own football stadium",
+      "Every visitor received a free match ticket",
+      "The pubs were owned by Hearts"
+    ],
+    "right": 0,
+    "info": "The original Corstorphine Fair quiz links the annual outings with the rules that allowed qualifying travellers to be served in hotel premises on Sundays."
+  },
+  {
+    "emoji": "🏆",
+    "q": "In which year did Hibernian first win the Edinburgh Cup, defeating Hearts in a replay at Corstorphine?",
+    "a": [
+      "1878",
+      "1879",
+      "1881",
+      "1887"
+    ],
+    "right": 1,
+    "info": "Hibernian won the 1879 Edinburgh Cup after defeating Hearts 2–0 in the final replay. Hearts had taken the title in 1878."
+  }
+]
