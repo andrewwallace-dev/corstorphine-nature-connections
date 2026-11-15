@@ -154,7 +154,7 @@ a{color:var(--pine);font-weight:750}
     <div class="decor-top" aria-hidden="true">☃️</div>
     <div class="progressrow">
       <span id="counter">Question 1 of 10</span>
-      <span id="runningScore">0 points</span>
+      <span id="runningScore">0 correct / 10</span>
     </div>
     <div class="bar" aria-hidden="true"><div class="fill" id="fill"></div></div><div class="game-stats"><div class="stat" id="timerbox"><strong id="timer">20</strong><span>Seconds left</span></div><div class="stat"><strong id="points">0</strong><span>Total points</span></div><div class="stat"><strong id="streak">0 🔥</strong><span>Correct streak</span></div></div><figure class="question-photo hidden" id="questionPhoto"><img id="questionImage" loading="lazy" alt=""/><figcaption id="photoCredit"></figcaption></figure><div id="bonusToast" class="game-toast" aria-live="polite"></div>
     <div id="qemoji" class="qemoji" aria-hidden="true">🎄</div>
@@ -611,7 +611,7 @@ function renderQuestion(){
   locked = false;
   const q = roundQuestions[currentIndex];
   $('counter').textContent = `Question ${currentIndex + 1} of ${roundQuestions.length}`;
-  $('runningScore').textContent = `${score} ${score === 1 ? 'point' : 'points'}`;
+  $('runningScore').textContent = `${score} correct / ${roundQuestions.length}`;
   $('fill').style.width = `${(currentIndex / roundQuestions.length) * 100}%`;
   $('qemoji').textContent = q.emoji;
   showPhoto(q);$('bonusToast').textContent='';
@@ -662,7 +662,7 @@ function selectAnswer(index){
   $('feedback').append(strong, info);
   $('feedback').classList.remove('hidden');
 
-  $('runningScore').textContent = `${score} ${score === 1 ? 'point' : 'points'}`;
+  $('runningScore').textContent = `${score} correct / ${roundQuestions.length}`;
   $('fill').style.width = `${((currentIndex + 1) / roundQuestions.length) * 100}%`;
   $('hintline').textContent = '';
   $('next').textContent = currentIndex === roundQuestions.length - 1 ? 'See my result →' : 'Next question →';
