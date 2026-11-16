@@ -126,7 +126,7 @@
     "lng": -3.2691294,
     "radius": 40,
     "category": "Hidden greenspaces",
-    "note": "A distinctive rounded greenspace enclosed by Carrick Knowe Avenue. Exact central pin awaiting confirmation against the supplied map image.",
+    "note": "A distinctive rounded greenspace enclosed by Carrick Knowe Avenue.",
     "source": "User-supplied map screenshot, 15 November 2026",
     "enabled": true,
     "id": "squircle"
@@ -145,7 +145,7 @@
   },
   {
     "name": "Corstorphine Walled garden",
-    "question": "Can you pinpoint the Corstorphine Walled Garden",
+    "question": "Can you pinpoint the Corstorphine Walled Garden?",
     "lat": 55.9501103,
     "lng": -3.2769003,
     "radius": 50,
